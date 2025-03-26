@@ -75,7 +75,7 @@
 //     int num = 8332, sum =0, firstd;
 
 //     int lastd= num%10;
-//     while(num >10){
+//     while(num >10){lastd
 //         num = num /10;//  833 , 83,8
 //     }
 //     firstd = num;
@@ -85,3 +85,37 @@
 //      cout<<"Sum of First digit and last digit is "<<sum;
 
 // }
+
+// problem 6
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int num =8243, temp =num,sum =0, lastdigit;
+
+//     int lastd= num %10;   //lastd = 6
+
+//     int firstd = num; // firstd =4536
+//     while (num >10){
+//         firstd = firstd/10;// yemp /10 = 453 , 45,4  ,  firstd = 4
+//     }
+
+//     while(temp>0 ){ // temp =4536
+
+//         lastdigit = temp%10; //lastdigit = 6 ,  3
+
+//         if(lastdigit != lastd && lastdigit != firstd){
+            // sum = su7m + lastdigit;
+//         }
+
+//         temp = temp/10;  // yemp /10 = 453 , 45,4 ,0
+
+//     }
+
+//     cout<<sum ;
+
+// }
+
+
+// problem 7
+
