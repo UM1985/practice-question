@@ -105,7 +105,7 @@
 //         lastdigit = temp%10; //lastdigit = 6 ,  3
 
 //         if(lastdigit != lastd && lastdigit != firstd){
-            // sum = su7m + lastdigit;
+// sum = su7m + lastdigit;
 //         }
 
 //         temp = temp/10;  // yemp /10 = 453 , 45,4 ,0
@@ -116,6 +116,68 @@
 
 // }
 
+// // problem 7
 
-// problem 7
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int num = 6345;
+//     int temp = num;
+
+//     int rev = 0;
+//     int lastdigit;
+
+//     while (temp > 0)
+//     {
+//         lastdigit = temp % 10;      // 2 , 3 , 5
+//         rev = rev * 10 + lastdigit; // 0 0+2=2,   20 +3 = 23, 23*10 = 230+ 5 =235
+//         temp = temp / 10;           // 53 , 5 , 0
+//     }
+
+//     cout << rev;
+// }
+
+
+// // problem 8  // 
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int num = 454;
+//     int temp = num;
+
+//     int rev = 0;
+//     int lastdigit;
+
+//     while (temp > 0)
+//     {
+//         lastdigit = temp % 10;      // 2 , 3 , 5
+//         rev = rev * 10 + lastdigit; // 0 0+2=2,   20 +3 = 23, 23*10 = 230+ 5 =235
+//         temp = temp / 10;           // 53 , 5 , 0
+//     }
+
+//     cout<<rev<<endl;
+
+//     if(num == rev){
+//         cout<<"the given number is palindrome!";
+//     }else{
+//         cout<<"the given number is not palindrome!";
+
+//     }
+
+// }
+
+// #include<iostream> 
+// using  namespace std;
+// int main(){
+
+// int num =10;
+
+// for(int i = 1 ; i<=10;i++){  // 1 to 10; >=10 
+//     cout<<num<<" X "<<i<<" = "<<num*i<<endl;
+// }
+
+// }
 
