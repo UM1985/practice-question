@@ -96,7 +96,7 @@
 //     int lastd= num %10;   //lastd = 6
 
 //     int firstd = num; // firstd =4536
-//     while (num >10){
+//     while (firstd >10){
 //         firstd = firstd/10;// yemp /10 = 453 , 45,4  ,  firstd = 4
 //     }
 
@@ -105,7 +105,7 @@
 //         lastdigit = temp%10; //lastdigit = 6 ,  3
 
 //         if(lastdigit != lastd && lastdigit != firstd){
-// sum = su7m + lastdigit;
+//              sum = sum + lastdigit;
 //         }
 
 //         temp = temp/10;  // yemp /10 = 453 , 45,4 ,0
@@ -138,8 +138,7 @@
 //     cout << rev;
 // }
 
-
-// // problem 8  // 
+// // problem 8  //
 
 // #include <iostream>
 // using namespace std;
@@ -169,15 +168,57 @@
 
 // }
 
-// #include<iostream> 
+// #include<iostream>
 // using  namespace std;
 // int main(){
 
 // int num =10;
 
-// for(int i = 1 ; i<=10;i++){  // 1 to 10; >=10 
+// for(int i = 1 ; i<=10;i++){  // 1 to 10; >=10
 //     cout<<num<<" X "<<i<<" = "<<num*i<<endl;
 // }
 
 // }
 
+// problem 10
+
+// #include <iostream>
+// using namespace std;
+
+// int Sum(int utkarsh)
+// {
+//     int ld, sum = 0;
+//     while (utkarsh > 0)
+//     {
+//         ld = utkarsh % 10;
+//         sum = sum + ld;
+//         utkarsh = utkarsh / 10;
+//     }
+//     return sum;
+// }
+
+// void ismagic(int prakash)
+// {
+
+//     while (prakash > 9)
+//     {
+//         prakash = Sum(prakash);
+//     }
+
+//     if (prakash == 1)
+//     {
+//         cout << "The given number is magic number ";
+//     }
+//     else
+//     {
+//         cout << "The given number is not magic number ";
+//     }
+// }
+
+// int main()
+// {
+
+//     int num = 433;
+
+//     ismagic(num);
+// }
