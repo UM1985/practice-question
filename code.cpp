@@ -222,3 +222,48 @@
 
 //     ismagic(num);
 // }
+
+// // problem 11
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+
+//     int num = 10;
+
+//     for (int i = 2; i < num; i++)
+//     {
+
+//         if (num % i == 0) // 7 %2 == 1, 7%3 =1 , 7%4 = 3 , 7%5 = 2 ,7%6 = 1 ;
+//         {
+//             cout << "The given number is not prime number";
+//             return 0 ;
+//         }
+//     }
+//     cout << "The given number is prime number";
+// }
+
+// problem  13
+
+#include <iostream>
+using namespace std;
+int main()
+{
+
+    int num = 7;
+
+    // 1*2*3*4*5 = 120 = fACTORIAL
+
+    // 5 = 1 , 5 = factor
+
+    int factorial = 1; // 5*1 =5 , 5*0 =0
+
+    for (int i = 1; i <= num; i++)
+    {
+
+        factorial = factorial * i; // 1*1 = 1 , 2*1 = 2 , 3*2 = 6, 4*6 = 24 , 5*24 = 120
+    }
+
+    cout << factorial;
+}
